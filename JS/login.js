@@ -20,6 +20,9 @@ var loginBut = document.querySelector(".loginBut");
     } else if (localStorage.getItem("password") !== loginPass.value.trim()) {
       e2.classList.remove("d-none");
       e3.classList.remove("d-none");
+    } else {
+         window.alert("Please enter valid inputs");
+         e3.classList.remove("d-none");
     }
   });
 // ============================= End Log In JS Section =======================
