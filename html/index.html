@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Assignment</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- Bootstrap Stylesheat -->
+    <link rel="stylesheet" href="../Css/bootstrap.min.css" />
+    <!-- Css Stylesheat -->
+    <link rel="stylesheet" href="../Css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container-fluid body-bg vh-100 d-flex justify-content-center">
+        <section>
+          <div class="container d-flex justify-content-center">
+            <form class="formStyle signupForm w-75 p-5">
+              <h1 class="mainColor display-3 fw-normal pb-5 text-center">
+                Smart Sign Up System
+              </h1>
+              <div class="inputs">
+                <div class="container">
+                  <div class="row g-3">
+                     <input
+                      type="text"
+                      class="form-control form-input text-white"
+                      id="userName"
+                      name="userName"
+                      placeholder="Enter Your Name"
+                    />
+                    <p class="error1 fw-normal fs-6 text-danger d-none m-0">The name must start with a capital letter and be at least 2 characters long, but no more than 20</p>
+                    <input
+                      type="email"
+                      class="form-control form-input text-white"
+                      id="userEmail"
+                      name="userEmail"
+                      placeholder="Enter Your Email"
+                    />
+                     <p class="error2 fw-normal fs-6 text-danger d-none m-0">Please enter a valid email address (e.g., user@example.com)</p>
+                    <input
+                      type="password"
+                      class="form-control form-input text-white"
+                      id="userPass"
+                      name="userPassword"
+                      placeholder="Enter Your Password"
+                    />
+                     <p class="error3 fw-normal fs-6 text-danger d-none m-0">Password must be at least 8 characters long and include uppercase, lowercase letters, and numbers</p>
+                    <button type="button" id="sign" class="form-control but mainColor mt-5">
+                      Sign Up
+                    </button>
+                    <p class=" success fw-normal fs-6 text-success text-center pb-2 mt-3 mb-0 d-none">Your account has been created successfully. Please log in</p>
+                    <p class=" error4 fw-normal fs-6 text-danger text-center pb-2 mt-3 mb-0 d-none">"😅Come on! Please complete the form first "</p>
+                    <p class="fw-medium text-white fs-5 text-center m-3">
+                      Did you have an account ?
+                      <a class="fw-medium mainColor ps-1 signLink" href="../html/login.html"
+                        >Log In</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="../JS/main.js"></script>
+  </body>
+</html>

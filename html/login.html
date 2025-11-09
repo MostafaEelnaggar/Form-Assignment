@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Assignment</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- Bootstrap Stylesheat -->
+    <link rel="stylesheet" href="../Css/bootstrap.min.css" />
+    <!-- Css Stylesheat -->
+    <link rel="stylesheet" href="../Css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container-fluid body-bg vh-100 d-flex justify-content-center">
+        <section>
+          <div class="container d-flex justify-content-center">
+            <form class="formStyle w-75 p-5">
+              <h1 class="mainColor display-3 fw-normal pb-5 text-center">
+                Smart Login System
+              </h1>
+              <div class="inputs">
+                <div class="container">
+                  <div class="row g-4">
+                    <input
+                      type="email"
+                      class="form-control form-input"
+                      id="userLoginEmail"
+                      name="userEmail"
+                      placeholder="Enter Your Email"
+                    />
+                    <p class="e1 fw-normal fs-6 text-danger d-none m-0">Check Your Email</p>
+                    <div id="emailHelp" class="form-text opacity-50 fs-5">
+                      We'll never share your email with anyone else.
+                    </div>
+                    <input
+                      type="password"
+                      class="form-control form-input"
+                      id="userLoginPass"
+                      name="userPassword"
+                      placeholder="Enter Your Password"
+                    />
+                    <p class="e2 fw-normal fs-6 text-danger d-none m-0">Check Your Password</p>
+                    <button class="form-control but loginBut mainColor mt-5">
+                      Login
+                    </button>
+                    <p class=" e3 fw-normal fs-6 text-danger text-center pb-2 mt-3 mb-0 d-none">"Please enter valid inputes "</p>
+                    <p class="fw-medium text-white fs-5 text-center">
+                      Don’t have an account ?
+                      <a class="fw-medium mainColor ps-1 signLink" href="../html/index.html "
+                        >Sign Up</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+   <script src="../JS/main.js"></script>
+  </body>
+</html>

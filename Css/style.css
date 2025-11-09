@@ -1,0 +1,68 @@
+.body-bg{
+    background-color: #24353F;
+}
+.mainColor{
+    color: #17A2B8;
+}
+.formStyle{
+   box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+   margin-top: 50px;
+}
+
+.form-input{
+    background-color: unset;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff ;
+    padding: 10px;
+}
+.form-text{
+    color: #fff ;
+    font-size: 14px;
+}
+.form-control::placeholder{
+    color: #fff;
+    opacity: 0.5;
+    font-size: 20px;
+}
+.form-control:focus{
+    background-color: unset;
+    color: #fff;
+}
+.but{ 
+    background-color: unset;
+    border: solid 2px #17A2B8 ;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 22px;
+    transition: all 0.5s ease;
+}
+.but:hover{
+    background-color: #17A2B8;
+    color: #fff;
+}
+.signLink{
+    text-decoration: unset;
+    opacity: 0.5;
+    font-size: 22px;
+}
+.signLink:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+.message-box{
+    background-color: aqua;
+    border: solid 3px #000;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px #24353F inset !important;
+  -webkit-text-fill-color: #fff !important;
+  transition: background-color 9999s ease-in-out 0s !important;
+}
